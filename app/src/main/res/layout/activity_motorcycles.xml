@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".motorcycles">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Motorcycles"
+                android:textColor="@color/white"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="@color/black"
+                android:paddingTop="10dp"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/bike1"
+                android:layout_marginTop="10dp"/>
+
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="37dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/back2"
+                    android:onClick="scram"
+                   android:gravity="center"
+                    android:text="Scram 411"
+                    android:textAlignment="center"
+                    android:textColor="#00BFFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/bike2"
+                android:layout_marginTop="10dp"/>
+
+
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:background="@drawable/back2"
+                android:text="Classic 350"
+                android:onClick="classic"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="#00BFFF"
+                android:textSize="20dp"
+                android:layout_marginLeft="120dp"
+                android:textStyle="bold" />
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/bike3"
+                android:layout_marginTop="10dp"/>
+
+
+
+
+
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/back2"
+                    android:text="Meteor"
+                    android:onClick="meteor"
+                    android:gravity="center"
+                    android:textAlignment="center"
+
+                    android:textColor="#00BFFF"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="120dp"
+                    android:textStyle="bold" />
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/bike4"
+                android:layout_marginTop="10dp"/>
+
+
+
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/back2"
+                    android:text="Interceptor"
+                    android:onClick="interceptor"
+                    android:textAlignment="center"
+                 android:gravity="center"
+                    android:textColor="#00BFFF"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="120dp"
+                    android:textStyle="bold" />
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/bike5"
+                android:layout_marginTop="10dp"/>
+
+
+
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/back2"
+                    android:text="Continental GT"
+                    android:onClick="continental"
+                    android:textAlignment="center"
+                android:gravity="center"
+                    android:textColor="#00BFFF"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="120dp"
+                    android:textStyle="bold" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/bike6"
+                android:layout_marginTop="10dp"/>
+
+
+
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/back2"
+                    android:text="Himalayan"
+                    android:onClick="himalayan"
+                    android:textAlignment="center"
+                    android:gravity="center"
+
+                    android:textColor="#00BFFF"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="120dp"
+                    android:textStyle="bold" />
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/bike7"
+                android:layout_marginTop="10dp"/>
+
+
+
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/back2"
+                    android:text="Bullet"
+                    android:onClick="bullet"
+                    android:textAlignment="center"
+                    android:layout_marginHorizontal="30dp"
+                    android:textColor="#00BFFF"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="120dp"
+                    android:textStyle="bold" />
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/logo1"
+                android:layout_marginTop="10dp"/>
+
+
+        </LinearLayout>
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

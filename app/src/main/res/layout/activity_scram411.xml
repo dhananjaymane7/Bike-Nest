@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scram411">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scram 411"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="25sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="As you enjoy riding the nimble and playful Scram 411, personalise it to your needs. Add protection, style and comfort to your motorcycle. Pick from a range, built to fit your Scram 411 and designed to perform."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginVertical="10dp"
+                android:textSize="17sp"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/a1"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/c1"
+                android:text="Black Bar End Finishers
+INR 1200"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/a2"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/c2"
+                android:text="Silver Master Cylinder Guard   INR - 700"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/a3"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/c3"
+                android:text="Black Oil Cooler Guard
+INR - 1250"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/a4"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/c4"
+                android:text="Black Master Cylinder Guard
+INR - 700"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/a6"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/c5"
+                android:text="Black Water Resistant Bike Cover INR - 1100"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/a7"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/c6"
+                android:text="Black Handlebar Brace Pad INR - 600"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/a8"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/c7"
+                android:text="Black Compact Engine Guards INR - 1450"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/a9"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/c8"
+                android:layout_marginBottom="20dp"
+                android:text="Black Adventure Handguards INR - 2550"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="order"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:background="@drawable/back"
+                 android:paddingVertical="10dp"
+                android:layout_marginVertical="30dp"
+                android:paddingHorizontal="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/order"
+                android:onClick="order"/>
+
+
+
+        </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

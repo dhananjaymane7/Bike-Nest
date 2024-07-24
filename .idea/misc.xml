@@ -1,0 +1,57 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/drawable-v24/back2.xml" value="0.165" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/drawable/back.xml" value="0.2065" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/drawable/back1.xml" value="0.2065" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/drawable/border.xml" value="0.281" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/drawable/border1.xml" value="0.2065" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/drawable/btn12.xml" value="0.201" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/drawable/contact.xml" value="0.298" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.2215528781793842" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout-w936dp/activity_login.xml" value="0.25859375" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_aboutus.xml" value="0.33" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_accesso.xml" value="0.1" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_accessories.xml" value="0.34479166666666666" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_accessories1.xml" value="0.1" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_accessories_bill.xml" value="0.34479166666666666" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_admin.xml" value="0.33" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_apparel.xml" value="0.33" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_bikepdf.xml" value="0.25" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_book_bike.xml" value="0.34479166666666666" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_bookbike.xml" value="0.9" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_bookbike11.xml" value="0.34479166666666666" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_boots.xml" value="0.25" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_bullet.xml" value="0.25" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_classic.xml" value="0.20546244568590938" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_contactus.xml" value="0.2" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_continental.xml" value="0.19556868537666175" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_event.xml" value="0.34479166666666666" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_gloves.xml" value="0.2028186274509804" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_helmet.xml" value="0.2028186274509804" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_himalaya.xml" value="0.19533785777515492" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_homepage.xml" value="0.2" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_interceptor.xml" value="0.19643916913946588" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_jackets.xml" value="0.2243307353439512" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_login.xml" value="0.34479166666666666" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_login2.xml" value="0.33" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_login_page.xml" value="0.33" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_main.xml" value="0.34479166666666666" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_meteor.xml" value="0.1966141966141966" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_motorcycles.xml" value="0.25" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_otp_verification.xml" value="0.33" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_our_world.xml" value="0.22" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_scram411.xml" value="0.2717569786535304" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_scrampdf.xml" value="0.34479166666666666" />
+        <entry key="..\:/RoyalEnfield3/app/src/main/res/layout/activity_testride.xml" value="0.34479166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

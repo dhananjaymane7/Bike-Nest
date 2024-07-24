@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".meteor">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meteor"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="25sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get ready to cruise easy with accessories that enhance comfort, protection, and style of the all-new Meteor 350. Explore from a range of Genuine Motorcycle Accessories that stay true to your ride, be it the long hauls or everyday short rides."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginVertical="10dp"
+                android:textSize="17sp"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/m1"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/c1"
+                android:text="Black Touring Rider Seat INR - 3950"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/m2"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/c2"
+                android:text="Black Passenger Backrest Mounts INR - 2500"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/m3"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/c3"
+                android:text="Black Touring Passenger Seat INR - 2500"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/m4"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/c4"
+                android:text="Black Touring Mirror INR - 6850"/>
+
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/m5"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/c10"
+                android:layout_marginBottom="20dp"
+                android:text="Brown Low Ride Rider Seat  INR - 2950"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/m6"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/c5"
+                android:text="Silver Sumpguard INR - 3100"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/m7"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/c6"
+                android:text="Black Commuter Pannier INR - 2350"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/m8"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/c7"
+                android:text="Black Commuter Pannier Rail INR - 2200"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/m9"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/c8"
+                android:layout_marginBottom="20dp"
+                android:text="Black and Silver Straightcut Silencer INR - 4500"/>
+
+
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/m10"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="8dp"
+                android:padding="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textSize="20dp"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/c9"
+                android:layout_marginBottom="20dp"
+                android:text="Silver and Black Straightcut Silencer INR - 4500"/>
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="order"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:background="@drawable/back"
+                android:paddingVertical="10dp"
+                android:layout_marginVertical="30dp"
+                android:paddingHorizontal="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:onClick="click2"/>
+
+
+
+        </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

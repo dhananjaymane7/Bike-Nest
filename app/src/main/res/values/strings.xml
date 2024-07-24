@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">RoyalEnfield</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_accessories">accessories</string>
+
+    <string-array name="bikes">
+        <item>Scram 411</item>
+        <item>Classic 350</item>
+        <item>Meteor</item>
+        <item>Intercepter</item>
+        <item>Himalayan</item>
+        <item>Continental GT</item>
+        <item>Bullet</item>
+
+    </string-array>
+
+</resources>
+
+

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".event">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Upcoming Events"
+                android:textColor="@color/white"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="@color/black"
+                android:paddingTop="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/event"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="8 July 2022"
+                android:layout_marginTop="10dp"
+                android:textColor="#FF0000"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+               />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/event1"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Unroad Mapro city"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+               />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="2 Days"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+               />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          There are only limited numbers of participants (15 participants) allowed on the ride. Royal Enfield reserves the right to decline any registration at their discretion. The candidate is confirmed only after his/her name appears on the Royal Enfield application, after payment is made and due documents are processed.  Further to this there will be a gear and motorcycle scrutiny conducted one day before the ride which is mandatory."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registration fee for Unroad Maprocity 2022 is as follows :"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18dp"
+                android:textColor="#ff0000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    Individual : 2500 INR\n    You can pay online by Credit card, Debit card or net banking\n
+
+  \n    REGISTRATION RULES:"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="PLEASE NOTE THAT REGISTRATIONS ONCE CONFIRMED, ARE NON REFUNDABLE AND NON TRANSFERRABLE.\n\nPLEASE NOTE THAT T-SHIRTS AND STICKERS CAN ONLY BE COLLECTED AT THE VENUE BY REGISTERED PARTICIPANTS AND NO PROXIES WILL BE ENTERTAINED."
+                android:textColor="#696969"
+                android:layout_marginLeft="18dp"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="What is include?"
+                android:textColor="#ff0000"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) Stay from 8 July 2022 (Check in at 1.00 PM) to 10th July 2021 (Check out at 10 am) on single occupancy basis.\n2) All Meals included.\n3) Basic Off road rider training.
+\n4) A Royal Enfield trained technician will be available throughout the ride.
+\n5) Basic spares on a chargeable basis will be available along with a breakdown support vehicle.
+\n6) On ride Doctor with first aid facilities and emergency vehicle.
+\n7) A limited edition Unroad Mapro 2022 T-shirt and Decals."
+                android:textSize="15dp"
+                android:layout_marginLeft="17dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Register Here"
+                android:textColor="@color/white"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="@color/black"
+                android:paddingTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Name"
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/name"
+                android:background="@drawable/back"
+                android:text="Nand Enterprises Satara"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="UPI ID"
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/back"
+                android:id="@+id/upi_id"
+                android:text="nandenterprises@okaxis"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Amount"
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/back"
+                android:id="@+id/amount_et"
+                android:inputType="numberDecimal"
+                android:text="2500"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Note"
+                android:background="@drawable/back"
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/note"
+                android:text="Test UPI Payment"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:id="@+id/send"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="Pay Now"
+                android:layout_gravity="center"
+                android:background="@drawable/back"
+                android:layout_marginBottom="20dp"/>
+
+
+
+        </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

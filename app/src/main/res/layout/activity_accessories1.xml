@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".accessories1">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Accessories"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Choose By Motorcycle"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/scram411"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy Accessories"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:onClick="scram"
+                android:textColor="#00BFFF"
+                android:padding="12dp"
+                android:background="@drawable/back2"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/classy" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy Accessories"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textSize="17dp"
+                android:onClick="classic"
+                android:textStyle="bold"
+                android:textColor="#00BFFF"
+                android:padding="12dp"
+                android:background="@drawable/back2"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/meta"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy Accessories"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textSize="17dp"
+                android:onClick="meteor"
+                android:textStyle="bold"
+                android:textColor="#00BFFF"
+                android:padding="12dp"
+                android:background="@drawable/back2"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/bullet123"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy Accessories"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textSize="17dp"
+                android:onClick="bullet"
+                android:textStyle="bold"
+                android:textColor="#00BFFF"
+                android:padding="12dp"
+                android:background="@drawable/back2"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/himalayan"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy Accessories"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textSize="17dp"
+                android:onClick="himalayan"
+                android:textStyle="bold"
+                android:textColor="#00BFFF"
+                android:padding="12dp"
+                android:background="@drawable/back2"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/interceptor"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy Accessories"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textSize="17dp"
+                android:onClick="interceptor"
+                android:textStyle="bold"
+                android:textColor="#00BFFF"
+                android:padding="12dp"
+                android:background="@drawable/back2"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/continental"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy Accessories"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textSize="17dp"
+                android:onClick="continental"
+                android:textStyle="bold"
+                android:textColor="#00BFFF"
+                android:padding="12dp"
+                android:background="@drawable/back2"/>
+
+        </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>
